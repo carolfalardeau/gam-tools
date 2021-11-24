@@ -1,0 +1,4 @@
+- Add a new bookmark in you browser
+- Add this code in the url: 
+javascript:googletag.openConsole();
+- Click on the bookmark on a website that use Google Ad Manager (GAM)
