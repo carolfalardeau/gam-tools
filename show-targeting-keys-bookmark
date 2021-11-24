@@ -1,0 +1,4 @@
+- Add a new bookmark in you browser
+- Add this code in the url: 
+javascript:var adTargetingKeys = googletag.pubads().getTargetingKeys(); var adTargetingList = []; adTargetingKeys.forEach(function(adTargetingKey, indexAdTargetingKey) { var adTargetingValues = googletag.pubads().getTargeting(adTargetingKey); adTargetingList.push(adTargetingKey + ': ' + adTargetingValues.join(', ')); }); alert(adTargetingList.join('\n'));
+- Click on the bookmark on a website that use Google Ad Manager (GAM) to display the targeting keys/values in an alert
